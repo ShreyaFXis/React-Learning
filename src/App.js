@@ -4,7 +4,13 @@ import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
-
+import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
+import UserGreeting from './components/UserGreeting';
+import EventBind from './components/EventBind';
+import NameList from './components/NameList';
+import Person from './components/Person';
 function App() {
   return (
     <div className="App">
@@ -18,8 +24,13 @@ function App() {
         <Greet name="Diana" heroName="Wonder Woman" />*/}
       <Welcome/>
       <Message message='You know what?' />
-     
-      {/*<Hello/>*/}
+      <NameList></NameList>
+     {/* <EventBind/>*/}
+      {/*<UserGreeting></UserGreeting>*/}
+      {/*<Counter/>
+      <FunctionClick></FunctionClick>
+      <ClassClick></ClassClick>
+      <Hello/>*/}
     </div>
   );
 }
