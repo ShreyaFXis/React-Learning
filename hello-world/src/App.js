@@ -11,6 +11,8 @@ import UserGreeting from './components/UserGreeting';
 import EventBind from './components/EventBind';
 import NameList from './components/NameList';
 import Person from './components/Person';
+import Form from './components/Forms';
+
 function App() {
   return (
     <div className="App">
@@ -23,7 +25,8 @@ function App() {
         </Greet>
         <Greet name="Diana" heroName="Wonder Woman" />*/}
       <Welcome/>
-      <Message message='You know what?' />
+      {/*<Message message='You know what?' />*/}
+      <Form/>
       {/* <NameList></NameList>
      <EventBind/>*/}
       {/*<UserGreeting></UserGreeting>*/}

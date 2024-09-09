@@ -21,6 +21,12 @@ function NameList() {
       name: 'Dhruvish',
       age: 17,
       skill: 'Vue'
+    },
+    {
+      id: 3,
+      name: 'Parth',
+      age: 22 ,
+      skill: 'React'
     }
   ]
   const personList = persons.map(person => <Person key={person.id} person={person} />)
