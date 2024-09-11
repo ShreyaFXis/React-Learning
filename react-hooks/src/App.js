@@ -9,6 +9,8 @@ import HookCounterFour from './Components/HookCounterFour';
 import IntervalClassCounter from './Components/IntervalClasscounter';
 import IntervalHookCounter from './Components/IntervalHookCounter';
 import HookMouse from './Components/HookMouse';
+import Count1 from './Components/Hook Reducer/Count1';
+import Count2 from './Components/Hook Reducer/Count2';
 
 function App() {
   return (
@@ -23,10 +25,11 @@ function App() {
       <HookCounterFour/>
       <IntervalClassCounter/>
       <IntervalHookCounter/>
-      */}
       <HookMouse/>
+      <Count1/>
+      */}
+      <Count2/>
 
-      
     </div>
   );
 }
