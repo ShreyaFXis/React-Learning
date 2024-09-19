@@ -9,6 +9,7 @@ function TodoForm({addTodo}) {
             setValue("");
         }
     }
+    
   return (
     <form onSubmit={handleSubmit} className="TodoForm">
         <input 
@@ -16,7 +17,7 @@ function TodoForm({addTodo}) {
         value={value}
         onChange={(e)=> setValue(e.target.value)}
         className="todo-input"
-        placeholder="Haa, Batao Batao..!!" />
+        placeholder="Haa,Batao Batao..!!" />
         <button type="submit" className="todo-btn">Add Task</button>
     </form>
   )
